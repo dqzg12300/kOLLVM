@@ -43,10 +43,10 @@ RM = /home/king/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/king/CLionProjects/kOLLVM
+CMAKE_SOURCE_DIR = /mnt/hgfs/kali_share/kOLLVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug
 
 # Utility rule file for intrinsics_gen.
 
@@ -67,6 +67,6 @@ CMakeFiles/intrinsics_gen.dir/clean:
 .PHONY : CMakeFiles/intrinsics_gen.dir/clean
 
 CMakeFiles/intrinsics_gen.dir/depend:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/king/CLionProjects/kOLLVM /home/king/CLionProjects/kOLLVM /home/king/CLionProjects/kOLLVM/cmake-build-debug /home/king/CLionProjects/kOLLVM/cmake-build-debug /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles/intrinsics_gen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/kali_share/kOLLVM /mnt/hgfs/kali_share/kOLLVM /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles/intrinsics_gen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/intrinsics_gen.dir/depend
 

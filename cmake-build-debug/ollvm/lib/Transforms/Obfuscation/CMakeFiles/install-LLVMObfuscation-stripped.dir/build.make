@@ -43,10 +43,10 @@ RM = /home/king/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/king/CLionProjects/kOLLVM
+CMAKE_SOURCE_DIR = /mnt/hgfs/kali_share/kOLLVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug
 
 # Utility rule file for install-LLVMObfuscation-stripped.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
 include ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/progress.make
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /home/king/clion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_COMPONENT="LLVMObfuscation" -DCMAKE_INSTALL_DO_STRIP=1 -P /home/king/CLionProjects/kOLLVM/cmake-build-debug/cmake_install.cmake
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /home/king/clion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_COMPONENT="LLVMObfuscation" -DCMAKE_INSTALL_DO_STRIP=1 -P /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/cmake_install.cmake
 
 install-LLVMObfuscation-stripped: ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped
 install-LLVMObfuscation-stripped: ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build.make
@@ -67,10 +67,10 @@ ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/clean:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && $(CMAKE_COMMAND) -P CMakeFiles/install-LLVMObfuscation-stripped.dir/cmake_clean.cmake
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && $(CMAKE_COMMAND) -P CMakeFiles/install-LLVMObfuscation-stripped.dir/cmake_clean.cmake
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/clean
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/depend:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/king/CLionProjects/kOLLVM /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation /home/king/CLionProjects/kOLLVM/cmake-build-debug /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/kali_share/kOLLVM /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/depend
 

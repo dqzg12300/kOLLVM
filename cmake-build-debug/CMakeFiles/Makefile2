@@ -44,10 +44,10 @@ RM = /home/king/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/king/CLionProjects/kOLLVM
+CMAKE_SOURCE_DIR = /mnt/hgfs/kali_share/kOLLVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -75,14 +75,14 @@ preinstall: ollvm/preinstall
 CMakeFiles/intrinsics_gen.dir/all:
 	$(MAKE) -f CMakeFiles/intrinsics_gen.dir/build.make CMakeFiles/intrinsics_gen.dir/depend
 	$(MAKE) -f CMakeFiles/intrinsics_gen.dir/build.make CMakeFiles/intrinsics_gen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num= "Built target intrinsics_gen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num= "Built target intrinsics_gen"
 .PHONY : CMakeFiles/intrinsics_gen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/intrinsics_gen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/intrinsics_gen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/intrinsics_gen.dir/rule
 
 # Convenience name for target.
@@ -176,14 +176,14 @@ ollvm/lib/Transforms/Obfuscation/preinstall:
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/all: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/all
 	$(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/depend
 	$(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num= "Built target install-LLVMObfuscation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num= "Built target install-LLVMObfuscation"
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/all
 
 # Build rule for subdir invocation for target.
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 0
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/rule
 
 # Convenience name for target.
@@ -203,14 +203,14 @@ ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/clean:
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/all: CMakeFiles/intrinsics_gen.dir/all
 	$(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/depend
 	$(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target LLVMObfuscation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target LLVMObfuscation"
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/all
 
 # Build rule for subdir invocation for target.
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 0
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/rule
 
 # Convenience name for target.
@@ -230,14 +230,14 @@ ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/clean:
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/all: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/all
 	$(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/depend
 	$(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num= "Built target install-LLVMObfuscation-stripped"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num= "Built target install-LLVMObfuscation-stripped"
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/all
 
 # Build rule for subdir invocation for target.
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 0
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/rule
 
 # Convenience name for target.

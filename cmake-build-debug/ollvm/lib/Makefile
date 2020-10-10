@@ -48,10 +48,10 @@ RM = /home/king/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/king/CLionProjects/kOLLVM
+CMAKE_SOURCE_DIR = /mnt/hgfs/kali_share/kOLLVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/CMakeFiles/progress.marks
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 0
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/CMakeFiles/progress.marks
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/clean
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/preinstall
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/preinstall
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

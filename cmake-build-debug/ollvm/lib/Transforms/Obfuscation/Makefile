@@ -48,10 +48,10 @@ RM = /home/king/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/king/CLionProjects/kOLLVM
+CMAKE_SOURCE_DIR = /mnt/hgfs/kali_share/kOLLVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/progress.marks
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles 0
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/progress.marks
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/clean
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/preinstall
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/preinstall
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/rule:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/rule
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/rule
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ install-LLVMObfuscation: ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLV
 
 # fast build rule for target.
 install-LLVMObfuscation/fast:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build
 .PHONY : install-LLVMObfuscation/fast
 
 # Convenience name for target.
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/rule:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/rule
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/rule
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ LLVMObfuscation: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir
 
 # fast build rule for target.
 LLVMObfuscation/fast:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build
 .PHONY : LLVMObfuscation/fast
 
 # Convenience name for target.
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/rule:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/rule
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/rule
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ install-LLVMObfuscation-stripped: ollvm/lib/Transforms/Obfuscation/CMakeFiles/in
 
 # fast build rule for target.
 install-LLVMObfuscation-stripped/fast:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation-stripped.dir/build
 .PHONY : install-LLVMObfuscation-stripped/fast
 
 BogusControlFlow.o: BogusControlFlow.cpp.o
@@ -207,7 +207,7 @@ BogusControlFlow.o: BogusControlFlow.cpp.o
 
 # target to build an object file
 BogusControlFlow.cpp.o:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o
 .PHONY : BogusControlFlow.cpp.o
 
 BogusControlFlow.i: BogusControlFlow.cpp.i
@@ -216,7 +216,7 @@ BogusControlFlow.i: BogusControlFlow.cpp.i
 
 # target to preprocess a source file
 BogusControlFlow.cpp.i:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.i
 .PHONY : BogusControlFlow.cpp.i
 
 BogusControlFlow.s: BogusControlFlow.cpp.s
@@ -225,7 +225,7 @@ BogusControlFlow.s: BogusControlFlow.cpp.s
 
 # target to generate assembly for a file
 BogusControlFlow.cpp.s:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.s
 .PHONY : BogusControlFlow.cpp.s
 
 CryptoUtils.o: CryptoUtils.cpp.o
@@ -234,7 +234,7 @@ CryptoUtils.o: CryptoUtils.cpp.o
 
 # target to build an object file
 CryptoUtils.cpp.o:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o
 .PHONY : CryptoUtils.cpp.o
 
 CryptoUtils.i: CryptoUtils.cpp.i
@@ -243,7 +243,7 @@ CryptoUtils.i: CryptoUtils.cpp.i
 
 # target to preprocess a source file
 CryptoUtils.cpp.i:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.i
 .PHONY : CryptoUtils.cpp.i
 
 CryptoUtils.s: CryptoUtils.cpp.s
@@ -252,7 +252,7 @@ CryptoUtils.s: CryptoUtils.cpp.s
 
 # target to generate assembly for a file
 CryptoUtils.cpp.s:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.s
 .PHONY : CryptoUtils.cpp.s
 
 Entry.o: Entry.cpp.o
@@ -261,7 +261,7 @@ Entry.o: Entry.cpp.o
 
 # target to build an object file
 Entry.cpp.o:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o
 .PHONY : Entry.cpp.o
 
 Entry.i: Entry.cpp.i
@@ -270,7 +270,7 @@ Entry.i: Entry.cpp.i
 
 # target to preprocess a source file
 Entry.cpp.i:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.i
 .PHONY : Entry.cpp.i
 
 Entry.s: Entry.cpp.s
@@ -279,7 +279,7 @@ Entry.s: Entry.cpp.s
 
 # target to generate assembly for a file
 Entry.cpp.s:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.s
 .PHONY : Entry.cpp.s
 
 Flattening.o: Flattening.cpp.o
@@ -288,7 +288,7 @@ Flattening.o: Flattening.cpp.o
 
 # target to build an object file
 Flattening.cpp.o:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o
 .PHONY : Flattening.cpp.o
 
 Flattening.i: Flattening.cpp.i
@@ -297,7 +297,7 @@ Flattening.i: Flattening.cpp.i
 
 # target to preprocess a source file
 Flattening.cpp.i:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.i
 .PHONY : Flattening.cpp.i
 
 Flattening.s: Flattening.cpp.s
@@ -306,7 +306,7 @@ Flattening.s: Flattening.cpp.s
 
 # target to generate assembly for a file
 Flattening.cpp.s:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.s
 .PHONY : Flattening.cpp.s
 
 KStringEncode.o: KStringEncode.cpp.o
@@ -315,7 +315,7 @@ KStringEncode.o: KStringEncode.cpp.o
 
 # target to build an object file
 KStringEncode.cpp.o:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o
 .PHONY : KStringEncode.cpp.o
 
 KStringEncode.i: KStringEncode.cpp.i
@@ -324,7 +324,7 @@ KStringEncode.i: KStringEncode.cpp.i
 
 # target to preprocess a source file
 KStringEncode.cpp.i:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.i
 .PHONY : KStringEncode.cpp.i
 
 KStringEncode.s: KStringEncode.cpp.s
@@ -333,7 +333,7 @@ KStringEncode.s: KStringEncode.cpp.s
 
 # target to generate assembly for a file
 KStringEncode.cpp.s:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.s
 .PHONY : KStringEncode.cpp.s
 
 SplitBasicBlocks.o: SplitBasicBlocks.cpp.o
@@ -342,7 +342,7 @@ SplitBasicBlocks.o: SplitBasicBlocks.cpp.o
 
 # target to build an object file
 SplitBasicBlocks.cpp.o:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o
 .PHONY : SplitBasicBlocks.cpp.o
 
 SplitBasicBlocks.i: SplitBasicBlocks.cpp.i
@@ -351,7 +351,7 @@ SplitBasicBlocks.i: SplitBasicBlocks.cpp.i
 
 # target to preprocess a source file
 SplitBasicBlocks.cpp.i:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.i
 .PHONY : SplitBasicBlocks.cpp.i
 
 SplitBasicBlocks.s: SplitBasicBlocks.cpp.s
@@ -360,7 +360,7 @@ SplitBasicBlocks.s: SplitBasicBlocks.cpp.s
 
 # target to generate assembly for a file
 SplitBasicBlocks.cpp.s:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.s
 .PHONY : SplitBasicBlocks.cpp.s
 
 Substitution.o: Substitution.cpp.o
@@ -369,7 +369,7 @@ Substitution.o: Substitution.cpp.o
 
 # target to build an object file
 Substitution.cpp.o:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o
 .PHONY : Substitution.cpp.o
 
 Substitution.i: Substitution.cpp.i
@@ -378,7 +378,7 @@ Substitution.i: Substitution.cpp.i
 
 # target to preprocess a source file
 Substitution.cpp.i:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.i
 .PHONY : Substitution.cpp.i
 
 Substitution.s: Substitution.cpp.s
@@ -387,7 +387,7 @@ Substitution.s: Substitution.cpp.s
 
 # target to generate assembly for a file
 Substitution.cpp.s:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.s
 .PHONY : Substitution.cpp.s
 
 Utils.o: Utils.cpp.o
@@ -396,7 +396,7 @@ Utils.o: Utils.cpp.o
 
 # target to build an object file
 Utils.cpp.o:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o
 .PHONY : Utils.cpp.o
 
 Utils.i: Utils.cpp.i
@@ -405,7 +405,7 @@ Utils.i: Utils.cpp.i
 
 # target to preprocess a source file
 Utils.cpp.i:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.i
 .PHONY : Utils.cpp.i
 
 Utils.s: Utils.cpp.s
@@ -414,7 +414,7 @@ Utils.s: Utils.cpp.s
 
 # target to generate assembly for a file
 Utils.cpp.s:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(MAKE) -f ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.s
 .PHONY : Utils.cpp.s
 
 # Help Target
@@ -467,6 +467,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

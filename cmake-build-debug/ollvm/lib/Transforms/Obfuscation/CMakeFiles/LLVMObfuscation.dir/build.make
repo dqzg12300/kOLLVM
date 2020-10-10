@@ -43,10 +43,10 @@ RM = /home/king/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/king/CLionProjects/kOLLVM
+CMAKE_SOURCE_DIR = /mnt/hgfs/kali_share/kOLLVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/depend.make
@@ -59,107 +59,107 @@ include ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.ma
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.make
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o: ../ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o -c /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o -c /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.i"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp > CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp > CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.i
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.s"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp -o CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp -o CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.s
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.make
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o: ../ollvm/lib/Transforms/Obfuscation/Substitution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o -c /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o -c /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.i"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp > CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp > CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.i
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.s"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp -o CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp -o CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.s
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.make
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o: ../ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o -c /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o -c /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.i"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp > CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp > CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.i
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.s"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp -o CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp -o CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.s
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.make
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o: ../ollvm/lib/Transforms/Obfuscation/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o -c /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o -c /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMObfuscation.dir/Utils.cpp.i"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp > CMakeFiles/LLVMObfuscation.dir/Utils.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp > CMakeFiles/LLVMObfuscation.dir/Utils.cpp.i
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMObfuscation.dir/Utils.cpp.s"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp -o CMakeFiles/LLVMObfuscation.dir/Utils.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp -o CMakeFiles/LLVMObfuscation.dir/Utils.cpp.s
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.make
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o: ../ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o -c /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o -c /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.i"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp > CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp > CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.i
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.s"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp -o CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp -o CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.s
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.make
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o: ../ollvm/lib/Transforms/Obfuscation/Flattening.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o -c /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o -c /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.i"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp > CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp > CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.i
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.s"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp -o CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp -o CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.s
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.make
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o: ../ollvm/lib/Transforms/Obfuscation/Entry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o -c /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o -c /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMObfuscation.dir/Entry.cpp.i"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp > CMakeFiles/LLVMObfuscation.dir/Entry.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp > CMakeFiles/LLVMObfuscation.dir/Entry.cpp.i
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMObfuscation.dir/Entry.cpp.s"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp -o CMakeFiles/LLVMObfuscation.dir/Entry.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp -o CMakeFiles/LLVMObfuscation.dir/Entry.cpp.s
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/flags.make
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o: ../ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o -c /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o -c /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.i"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp > CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.i
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp > CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.i
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.s"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp -o CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.s
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp -o CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.s
 
 # Object files for target LLVMObfuscation
 LLVMObfuscation_OBJECTS = \
@@ -185,8 +185,8 @@ ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so: ollvm/lib/Transforms/Obfusc
 ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o
 ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build.make
 ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so: ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/king/CLionProjects/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared module LLVMObfuscation.so"
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LLVMObfuscation.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared module LLVMObfuscation.so"
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LLVMObfuscation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build: ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so
@@ -194,10 +194,10 @@ ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build: ollvm/lib
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/build
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/clean:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && $(CMAKE_COMMAND) -P CMakeFiles/LLVMObfuscation.dir/cmake_clean.cmake
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && $(CMAKE_COMMAND) -P CMakeFiles/LLVMObfuscation.dir/cmake_clean.cmake
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/clean
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/depend:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/king/CLionProjects/kOLLVM /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation /home/king/CLionProjects/kOLLVM/cmake-build-debug /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/kali_share/kOLLVM /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/depend
 

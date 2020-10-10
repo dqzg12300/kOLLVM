@@ -1,4 +1,4 @@
-/home/king/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/king/CLionProjects/kOLLVM
+/home/king/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/hgfs/kali_share/kOLLVM
 -- The C compiler identification is GNU 10.1.0
 -- The CXX compiler identification is GNU 10.1.0
 -- Check for working C compiler: /usr/bin/cc
@@ -16,4 +16,4 @@
 -- Linker detection: GNU ld
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/king/CLionProjects/kOLLVM/cmake-build-debug
+-- Build files have been written to: /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug

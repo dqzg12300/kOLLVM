@@ -7,14 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.15.3/CMakeSystem.cmake"
-  "../ollvm/CMakeLists.txt"
-  "../ollvm/lib/CMakeLists.txt"
-  "../ollvm/lib/Transforms/CMakeLists.txt"
-  "../ollvm/lib/Transforms/Obfuscation/CMakeLists.txt"
   "/home/king/clion/bin/cmake/linux/share/cmake-3.15/Modules/AddFileDependencies.cmake"
   "/home/king/clion/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompiler.cmake.in"
   "/home/king/clion/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c"
@@ -113,6 +105,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/DetermineGCCCompatible.cmake"
   "/home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/LLVM-Config.cmake"
   "/home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/LLVMProcessSources.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../ollvm/CMakeLists.txt"
+  "../ollvm/lib/CMakeLists.txt"
+  "../ollvm/lib/Transforms/CMakeLists.txt"
+  "../ollvm/lib/Transforms/Obfuscation/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

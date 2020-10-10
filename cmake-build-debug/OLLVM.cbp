@@ -5,101 +5,101 @@
 		<Option title="OLLVM"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\ollvm\;CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\;CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\;CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\;CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\;CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\;CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\;CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\;CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\;CMake Files\ollvm\;CMake Files\ollvm\lib\;CMake Files\ollvm\lib\Transforms\;CMake Files\ollvm\lib\Transforms\Obfuscation\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\home\;CMake Files\..\..\..\..\home\king\;CMake Files\..\..\..\..\home\king\ollvm\;CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\;CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\;CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\;CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\;CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\;CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\;CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\;CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\;CMake Files\ollvm\;CMake Files\ollvm\lib\;CMake Files\ollvm\lib\Transforms\;CMake Files\ollvm\lib\Transforms\Obfuscation\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="intrinsics_gen">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install-LLVMObfuscation">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 install-LLVMObfuscation"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 install-LLVMObfuscation"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LLVMObfuscation">
-				<Option output="/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation"/>
+				<Option output="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -107,7 +107,7 @@
 					<Add option="-DGTEST_HAS_RTTI=0"/>
 					<Add directory="/home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/include"/>
 					<Add directory="/home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/include"/>
-					<Add directory="/home/king/CLionProjects/kOLLVM/ollvm/include"/>
+					<Add directory="/mnt/hgfs/kali_share/kOLLVM/ollvm/include"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -117,15 +117,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 LLVMObfuscation"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 LLVMObfuscation"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LLVMObfuscation/fast">
-				<Option output="/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation"/>
+				<Option output="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/LLVMObfuscation.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -133,7 +133,7 @@
 					<Add option="-DGTEST_HAS_RTTI=0"/>
 					<Add directory="/home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/include"/>
 					<Add directory="/home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/include"/>
-					<Add directory="/home/king/CLionProjects/kOLLVM/ollvm/include"/>
+					<Add directory="/mnt/hgfs/kali_share/kOLLVM/ollvm/include"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -143,84 +143,84 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 LLVMObfuscation/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 LLVMObfuscation/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install-LLVMObfuscation-stripped">
-				<Option working_dir="/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation"/>
+				<Option working_dir="/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 install-LLVMObfuscation-stripped"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 install-LLVMObfuscation-stripped"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp">
 			<Option target="LLVMObfuscation"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp">
 			<Option target="LLVMObfuscation"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp">
 			<Option target="LLVMObfuscation"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp">
 			<Option target="LLVMObfuscation"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp">
 			<Option target="LLVMObfuscation"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp">
 			<Option target="LLVMObfuscation"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp">
 			<Option target="LLVMObfuscation"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp">
 			<Option target="LLVMObfuscation"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/CMakeLists.txt">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/../../ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/lib/cmake/llvm/LLVMBuildTreeOnlyTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\"/>
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/../../../../home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/lib/cmake/llvm/LLVMBuildTreeOnlyTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/../../ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/lib/cmake/llvm/LLVMConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\"/>
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/../../../../home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/lib/cmake/llvm/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/../../ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/lib/cmake/llvm/LLVMConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\"/>
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/../../../../home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/lib/cmake/llvm/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/../../ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/lib/cmake/llvm/LLVMExports.cmake">
-			<Option virtualFolder="CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\"/>
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/../../../../home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake-build-debug/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake-build-debug\lib\cmake\llvm\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/../../ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/AddLLVM.cmake">
-			<Option virtualFolder="CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\"/>
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/../../../../home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/AddLLVM.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/../../ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/DetermineGCCCompatible.cmake">
-			<Option virtualFolder="CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\"/>
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/../../../../home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/DetermineGCCCompatible.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/../../ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/LLVM-Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\"/>
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/../../../../home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/../../ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/LLVMProcessSources.cmake">
-			<Option virtualFolder="CMake Files\..\..\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\"/>
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/../../../../home/king/ollvm/llvm-project-llvmorg-9.0.1/llvm/cmake/modules/LLVMProcessSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\home\king\ollvm\llvm-project-llvmorg-9.0.1\llvm\cmake\modules\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/CMakeLists.txt">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ollvm\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/CMakeLists.txt">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ollvm\lib\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/CMakeLists.txt">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ollvm\lib\Transforms\"/>
 		</Unit>
-		<Unit filename="/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/CMakeLists.txt">
+		<Unit filename="/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ollvm\lib\Transforms\Obfuscation\"/>
 		</Unit>
 	</Project>

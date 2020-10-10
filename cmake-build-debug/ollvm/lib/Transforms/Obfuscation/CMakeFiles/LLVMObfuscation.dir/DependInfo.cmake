@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp" "/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o"
-  "/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp" "/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o"
-  "/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp" "/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o"
-  "/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp" "/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o"
-  "/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp" "/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o"
-  "/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp" "/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o"
-  "/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp" "/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o"
-  "/home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp" "/home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o"
+  "/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/BogusControlFlow.cpp" "/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/BogusControlFlow.cpp.o"
+  "/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/CryptoUtils.cpp" "/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/CryptoUtils.cpp.o"
+  "/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Entry.cpp" "/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Entry.cpp.o"
+  "/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Flattening.cpp" "/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Flattening.cpp.o"
+  "/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/KStringEncode.cpp" "/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/KStringEncode.cpp.o"
+  "/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp" "/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/SplitBasicBlocks.cpp.o"
+  "/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Substitution.cpp" "/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Substitution.cpp.o"
+  "/mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation/Utils.cpp" "/mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/LLVMObfuscation.dir/Utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

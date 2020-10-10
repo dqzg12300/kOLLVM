@@ -43,10 +43,10 @@ RM = /home/king/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/king/CLionProjects/kOLLVM
+CMAKE_SOURCE_DIR = /mnt/hgfs/kali_share/kOLLVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug
 
 # Utility rule file for install-LLVMObfuscation.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/king/CLionProjects/kOLLVM/cmake-build-debug
 include ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/progress.make
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /home/king/clion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_COMPONENT="LLVMObfuscation" -P /home/king/CLionProjects/kOLLVM/cmake-build-debug/cmake_install.cmake
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && /home/king/clion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_COMPONENT="LLVMObfuscation" -P /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/cmake_install.cmake
 
 install-LLVMObfuscation: ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation
 install-LLVMObfuscation: ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build.make
@@ -67,10 +67,10 @@ ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build: i
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/build
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/clean:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && $(CMAKE_COMMAND) -P CMakeFiles/install-LLVMObfuscation.dir/cmake_clean.cmake
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation && $(CMAKE_COMMAND) -P CMakeFiles/install-LLVMObfuscation.dir/cmake_clean.cmake
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/clean
 
 ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/depend:
-	cd /home/king/CLionProjects/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/king/CLionProjects/kOLLVM /home/king/CLionProjects/kOLLVM/ollvm/lib/Transforms/Obfuscation /home/king/CLionProjects/kOLLVM/cmake-build-debug /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation /home/king/CLionProjects/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/kali_share/kOLLVM /mnt/hgfs/kali_share/kOLLVM/ollvm/lib/Transforms/Obfuscation /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation /mnt/hgfs/kali_share/kOLLVM/cmake-build-debug/ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ollvm/lib/Transforms/Obfuscation/CMakeFiles/install-LLVMObfuscation.dir/depend
 
