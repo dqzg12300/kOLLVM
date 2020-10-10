@@ -1,0 +1,7 @@
+[common]
+subdirectories = Obfuscation
+
+[component_0]
+type = Group
+name = Transforms
+parent = Libraries

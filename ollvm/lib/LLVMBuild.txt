@@ -1,0 +1,8 @@
+[common]
+subdirectories =
+ Transforms
+
+[component_0]
+type = Group
+name = Libraries
+parent = $ROOT
