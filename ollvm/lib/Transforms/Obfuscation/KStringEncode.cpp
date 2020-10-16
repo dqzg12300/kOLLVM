@@ -26,7 +26,7 @@ namespace {
             if(toObfuscate(flag,&F,"kstr")) {
                 kstr(F);
 //                printFunction(F);
-
+//然后再删掉之前我们获取到的字符串的明文部分。这样就只有密文数据和密文解密的流程，最后动态执行拿到解密字符串了
                 return true;
             }
             return false;

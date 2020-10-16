@@ -36,7 +36,7 @@ static llvm::RegisterStandardPasses Y(
                 if(!llvm::cryptoutils->prng_seed(AesSeed.c_str()))
                     exit(1);
             }
-            PM.add(createKStringEncode(KString));
+
             if(Flattening){
                 PM.add(createLowerSwitchPass());
             }
@@ -44,5 +44,5 @@ static llvm::RegisterStandardPasses Y(
             PM.add(createBogus(BogusControlFlow));
             PM.add(createFlattening(Flattening));
             PM.add(createSubstitution(Substitution));
-
+            PM.add(createKStringEncode(KString));
         });
